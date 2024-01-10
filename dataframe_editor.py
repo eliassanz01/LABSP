@@ -6,4 +6,5 @@ def dataframe_editor(dataframe):
     dataframe['subject_id'] = aux.subject_id
     dataframe['trial'] = aux.trial
     dataframe.drop(dataframe.columns[[0]],axis=1,inplace=True)
+    print(dataframe.head())
     return dataframe
