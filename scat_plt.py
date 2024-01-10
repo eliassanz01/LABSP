@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Falta lo siguiente, lo actualizare en breves
