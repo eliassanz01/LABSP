@@ -1,2 +1,0 @@
-# LABSP
-Lab Scientific Programming
