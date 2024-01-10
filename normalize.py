@@ -1,3 +1,5 @@
+import pandas as pd
+
 def normalize(df,op):
     numeric_vals = df._get_numeric_data()
     if op == 0:
