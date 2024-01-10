@@ -5,5 +5,5 @@ def dataframe_editor(dataframe):
     aux.columns = ['phon','R','subject_id','trial']
     dataframe['subject_id'] = aux.subject_id
     dataframe['trial'] = aux.trial
-    dataframe.drop(dataframe.name, axis=1, inplace=True)
+    dataframe.drop(dataframe['name'], axis=1, inplace=True)
     return dataframe
